@@ -1,0 +1,12 @@
+timestamp_utc,action,detail
+2026-11-27T14:50:00Z,roundup_search,"Searched Black Friday 2026 deal roundups for Amazon, Best Buy, Walmart and Target (9to5toys, Mashable, DealNews, 9to5Google, GeekyGoo)"
+2026-11-27T14:51:00Z,page_fetch,"Fetched 9to5toys Walmart Black Friday sale article (published Nov 23, updated Nov 27); extracted per-product prices and store links from the page"
+2026-11-27T14:52:00Z,page_fetch,"Fetched 9to5toys Best Buy main-event article (published Nov 26, updated Nov 27); extracted per-product prices and store links"
+2026-11-27T14:53:00Z,link_resolution,"Resolved tracker short links (amzn.to, link.amazon) to canonical amazon.com product pages; recorded ASIN-level URLs for 30+ products"
+2026-11-27T14:54:00Z,store_check,"Searched walmart.com directly: Nintendo Switch 2 + Mario Kart World Bundle product page (item 20865751029); LEGO Creator Red Panda 31394 product page (item 18640609617) showing Black Friday price $15.00 vs $29.99 on Walmart's own LEGO deals page"
+2026-11-27T14:55:00Z,store_check,"Searched target.com directly: KitchenAid 5.5qt Bowl-Lift Stand Mixer KSM55 product page (A-88347595) showing $299.99 vs reg $499.99 in Target's own markup"
+2026-11-27T14:56:00Z,cross_check,"AirPods Pro 3 compared across four stores: Amazon $149, Walmart $149, Best Buy $149.99, Target $169.99 (9to5toys, DealNews, Mama Cheaps reports)"
+2026-11-27T14:57:00Z,cross_check,"Nintendo Switch 2 bundle compared: Walmart $499.99, Target $499.99, Amazon $499.99 (9to5toys, DealNews)"
+2026-11-27T14:58:00Z,cross_check,"MacBook Neo 256GB compared: Amazon $599 (Nov 26 report) vs Walmart $649 (Nov 23 report); Apple Watch SE 3: Amazon $179, Walmart $179, Target $199.99"
+2026-11-27T14:59:00Z,reference_check,"Echo Dot (2026): advertised against a $100 list price, but the same sale listed it at $75 on Nov 19 (9to5Google) — recorded as the typical-price observation behind its Questionable verdict"
+2026-11-27T15:00:00Z,dataset_freeze,"Deal dataset frozen at 39 entries; every entry carries product, store, direct product URL, sale price, usual price, check date and source"

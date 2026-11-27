@@ -1,0 +1,95 @@
+{
+  "publication": "The Price Ledger",
+  "comparisons": [
+    {
+      "deal_id": "airpods-pro-3",
+      "product": "Apple AirPods Pro 3",
+      "primary_store": "Amazon",
+      "primary_price": 149,
+      "compared_store": "Walmart",
+      "compared_price": 149,
+      "price_gap": 0,
+      "checked_at": "Nov 27, 2026"
+    },
+    {
+      "deal_id": "airpods-pro-3",
+      "product": "Apple AirPods Pro 3",
+      "primary_store": "Amazon",
+      "primary_price": 149,
+      "compared_store": "Best Buy",
+      "compared_price": 149.99,
+      "price_gap": 0.99,
+      "checked_at": "Nov 27, 2026"
+    },
+    {
+      "deal_id": "airpods-pro-3",
+      "product": "Apple AirPods Pro 3",
+      "primary_store": "Amazon",
+      "primary_price": 149,
+      "compared_store": "Target",
+      "compared_price": 169.99,
+      "price_gap": 20.99,
+      "checked_at": "Nov 27, 2026"
+    },
+    {
+      "deal_id": "apple-watch-series-12-42",
+      "product": "Apple Watch Series 12 (GPS, 42mm)",
+      "primary_store": "Amazon",
+      "primary_price": 299,
+      "compared_store": "Walmart",
+      "compared_price": 299,
+      "price_gap": 0,
+      "checked_at": "Nov 27, 2026"
+    },
+    {
+      "deal_id": "apple-watch-se-3-40",
+      "product": "Apple Watch SE 3 (40mm)",
+      "primary_store": "Amazon",
+      "primary_price": 179,
+      "compared_store": "Walmart",
+      "compared_price": 179,
+      "price_gap": 0,
+      "checked_at": "Nov 27, 2026"
+    },
+    {
+      "deal_id": "apple-watch-se-3-40",
+      "product": "Apple Watch SE 3 (40mm)",
+      "primary_store": "Amazon",
+      "primary_price": 179,
+      "compared_store": "Target",
+      "compared_price": 199.99,
+      "price_gap": 20.99,
+      "checked_at": "Nov 27, 2026"
+    },
+    {
+      "deal_id": "macbook-neo-256",
+      "product": "Apple MacBook Neo (256GB)",
+      "primary_store": "Amazon",
+      "primary_price": 599,
+      "compared_store": "Walmart",
+      "compared_price": 649,
+      "price_gap": 50,
+      "checked_at": "Nov 27, 2026"
+    },
+    {
+      "deal_id": "switch-2-mario-kart-bundle",
+      "product": "Nintendo Switch 2 + Mario Kart World Bundle",
+      "primary_store": "Walmart",
+      "primary_price": 499.99,
+      "compared_store": "Target",
+      "compared_price": 499.99,
+      "price_gap": 0,
+      "checked_at": "Nov 27, 2026"
+    },
+    {
+      "deal_id": "switch-2-mario-kart-bundle",
+      "product": "Nintendo Switch 2 + Mario Kart World Bundle",
+      "primary_store": "Walmart",
+      "primary_price": 499.99,
+      "compared_store": "Amazon",
+      "compared_price": 499.99,
+      "price_gap": 0,
+      "checked_at": "Nov 27, 2026"
+    }
+  ]
+}

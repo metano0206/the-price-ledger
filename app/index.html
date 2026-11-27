@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Price Ledger — Black Friday 2026, investigated</title>
+<meta name="description" content="An independent price investigation of Black Friday 2026: every deal checked at its store, every discount cross-examined.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap masthead-in">
+    <div class="brand">
+      <div class="brand-mark">TPL</div>
+      <div>
+        <h1 class="brand-name">The Price Ledger</h1>
+        <p class="brand-sub">An independent price-investigation desk</p>
+      </div>
+    </div>
+    <div class="edition">
+      <span class="edition-label">Edition</span>
+      <span class="edition-value">Black Friday Week · 2026</span>
+      <span class="edition-label">Prices checked</span>
+      <span class="edition-value">Nov 23–27, 2026</span>
+    </div>
+  </div>
+</header>
+
+<section class="investigation">
+  <div class="wrap">
+    <h2 class="inv-headline">Black Friday, cross-examined.</h2>
+    <p class="inv-lede">We checked every price in this ledger at the store selling it, recorded the
+    usual price beside the sale price, and looked for the same product at rival stores.
+    Then we graded the discount — not the headline. Some of this week's loudest
+    percentages do not survive the evidence.</p>
+    <div class="metrics" id="metrics"></div>
+    <p class="inv-method">How we grade: <strong>Genuine Deal</strong> — deep cut, corroborated.
+    <strong>Good Price</strong> — fair, honestly framed. <strong>Questionable Discount</strong> — the
+    percentage leans on a reference price shoppers rarely pay. <strong>Poor Value</strong> — a token
+    cut; wait. Confidence reflects how much evidence backs the entry, and is graded separately.</p>
+  </div>
+</section>
+
+<div class="controls" id="controls">
+  <div class="wrap controls-in">
+    <label class="search-box">
+      <span class="search-label">Search the ledger</span>
+      <input id="q" type="search" placeholder="Try “AirPods”, “Anker”, “watch”…" autocomplete="off">
+    </label>
+    <div class="chip-row" id="cat-chips" role="group" aria-label="Category"></div>
+    <div class="select-row">
+      <label>Store
+        <select id="f-store"></select>
+      </label>
+      <label>Minimum discount
+        <select id="f-min">
+          <option value="0">Any</option>
+          <option value="20">20% or more</option>
+          <option value="30">30% or more</option>
+          <option value="40">40% or more</option>
+          <option value="50">50% or more</option>
+        </select>
+      </label>
+      <label>Verdict
+        <select id="f-verdict">
+          <option value="">All verdicts</option>
+          <option value="genuine">Genuine Deal</option>
+          <option value="good">Good Price</option>
+          <option value="questionable">Questionable Discount</option>
+          <option value="poor">Poor Value</option>
+        </select>
+      </label>
+      <label>Sort
+        <select id="f-sort">
+          <option value="score">Deal score</option>
+          <option value="discount">Biggest % off</option>
+          <option value="saving">Biggest $ saving</option>
+          <option value="price-asc">Price, low to high</option>
+          <option value="price-desc">Price, high to low</option>
+        </select>
+      </label>
+      <label class="toggle">
+        <input id="f-verified" type="checkbox">
+        <span>Verified evidence only</span>
+      </label>
+    </div>
+  </div>
+</div>
+
+<main class="wrap" id="home-view">
+  <p class="result-line" id="result-line"></p>
+  <div id="deal-list"></div>
+  <p class="empty" id="empty" hidden>No entries match that combination. Loosen a filter — the ledger is honest, but it is not infinite.</p>
+</main>
+
+<main class="wrap" id="deal-view" hidden></main>
+
+<footer class="footer">
+  <div class="wrap">
+    <h3>Methodology, in brief</h3>
+    <p>Each entry was checked by a researcher during Black Friday week 2026. The sale price and
+    usual price are the figures the selling store showed at check time; the check date and source
+    ride with every entry. Cross-store prices are observations from the same checks, not live
+    feeds. Where a store's “usual” price is a list price shoppers rarely pay, we say so — and grade
+    the deal down for it. Prices move during Black Friday week; a price in this ledger is a
+    checked fact about a moment, not a promise about tomorrow.</p>
+    <p class="foot-note">The Price Ledger is an independent publication. It takes no commission
+    from the stores it investigates. Store links open the product page our researchers checked.</p>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
